@@ -1,0 +1,5 @@
+name: CircleTpa
+version: '1.0-SNAPSHOT'
+main: me.itsglobally.circleTpa.CircleTpa
+api-version: '1.21'
+load: STARTUP
