@@ -3,3 +3,26 @@ version: '1.0-SNAPSHOT'
 main: me.itsglobally.circleTpa.CircleTpa
 api-version: '1.21'
 load: STARTUP
+
+commands:
+  tpa:
+    description: Request to teleport to another player
+    usage: /tpa <player>
+  tpahere:
+    description: Request another player to teleport to you
+    usage: /tpahere <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept <player>
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny <player>
+  tpcancel:
+    description: Cancel your teleport request
+    usage: /tpcancel <player>
+  tpallow:
+    description: Toggle whether others can send you teleport requests
+    usage: /tpallow
+  tpauto:
+    description: Toggle automatic acceptance of teleport requests
+    usage: /tpauto
